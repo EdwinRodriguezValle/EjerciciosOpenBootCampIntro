@@ -1,11 +1,12 @@
 public class Coche {
-    public int puertas = 0;
 
-    public Coche(int puertas) {
-        this.puertas = puertas;
+    int numeroDePuertas;
+    int velocidadMaxima;
+    float velocidadActual;
+
+    public int acelarar (){
+       return (int) (velocidadActual += 15);
     }
 
-    public int incrementadorDePuertas(int puerta){
-        return puertas + puerta;
-    }
+    public void frenar(){}
 }
