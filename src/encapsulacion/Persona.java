@@ -1,5 +1,6 @@
+package encapsulacion;
 
-//Crear variables las privadas edad, nombre y telefono de la clase Persona.
+//Crear variables las privadas edad, nombre y telefono de la clase encapsulacion.Persona.
 public class Persona {
      private int edad;
      private String nombre;
